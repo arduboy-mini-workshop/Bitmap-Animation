@@ -26,8 +26,7 @@ ArdBitmap<WIDTH, HEIGHT> ardbitmap;
 // use it for anything that needs to be set only once in your game.
 void setup() {
   // initiate arduboy instance
-  //arduboy.begin();
-  arduboy.beginNoLogo();
+  arduboy.begin();
   arduboy.setFrameRate(FRAME_RATE);
 }
 
